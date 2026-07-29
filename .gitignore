@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Config with secrets (API keys, tokens, personal info)
+~/.jarvis_ai/
+jarvis_config.json
+.env
+*.env
+
+# Build / distribution
+build/
+dist/
+*.spec.bak
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Logs & databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Jarvis data
+knowledge_base/
+jarvis_memory.db
